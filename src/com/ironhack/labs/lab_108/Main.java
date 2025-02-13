@@ -2,7 +2,7 @@ package com.ironhack.labs.lab_108;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.sql.SQLOutput;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -75,6 +75,80 @@ public class Main {
         gladiator2.setRating(3.5);
         System.out.println(gladiator2.getInfo()+" It has a rating of "+gladiator2.getRating());
         System.out.println();
+
+        // TASK FOUR
+
+        System.out.println("INTLIST INTERFACE");
+        IntArrayList array = new IntArrayList();
+        array.add(5);
+        array.add(5);
+        System.out.println(array.arrayInfo());
+        array.add(5);
+        array.add(5);
+        array.add(5);
+        array.add(5);
+        array.add(5);
+        System.out.println(array.arrayInfo());
+        array.add(5);
+        array.add(5);
+        array.add(5);
+        array.add(5);
+        array.add(5);
+        System.out.println(array.arrayInfo());
+        array.add(5);
+        array.add(5);
+        System.out.println(array.arrayInfo());
+        array.add(5);
+        System.out.println(array.arrayInfo());
+        System.out.println(Arrays.toString(array.getArray()));
+        array.add(5);
+        System.out.println(array.arrayInfo());
+        System.out.println(Arrays.toString(array.getArray()));
+        array.add(5);
+        System.out.println(array.arrayInfo());
+        array.add(5);
+        array.add(5);
+        array.add(5);
+        array.add(5);
+        System.out.println(array.arrayInfo());
+        System.out.println(array.get(20)); // NOTE THAT USAGE STARTS AT 1, INDEX OF ARRAY STARTS AT ZERO.
+        System.out.println(Arrays.toString(array.getArray()));
+        System.out.println();
+
+        IntVector array2 = new IntVector();
+        array2.add(5);
+        array2.add(5);
+        System.out.println(array2.arrayInfo());
+        array2.add(5);
+        array2.add(5);
+        array2.add(5);
+        array2.add(5);
+        array2.add(5);
+        System.out.println(array2.arrayInfo());
+        array2.add(5);
+        array2.add(5);
+        array2.add(5);
+        array2.add(5);
+        array2.add(5);
+        System.out.println(array2.arrayInfo());
+        array2.add(5);
+        array2.add(5);
+        System.out.println(array2.arrayInfo());
+        array2.add(5);
+        System.out.println(array2.arrayInfo());
+        System.out.println(Arrays.toString(array2.getArray()));
+        array2.add(5);
+        System.out.println(array2.arrayInfo());
+        System.out.println(Arrays.toString(array2.getArray()));
+        array2.add(5);
+        System.out.println(array2.arrayInfo());
+        array2.add(5);
+        array2.add(5);
+        array2.add(5);
+        array2.add(5);
+        System.out.println(array2.arrayInfo());
+        System.out.println(array2.get(20)); // NOTE THAT USAGE STARTS AT 1, INDEX OF ARRAY STARTS AT ZERO.
+        System.out.println(Arrays.toString(array2.getArray()));
 
     }
 
